@@ -2,14 +2,14 @@
 Visualizing liquor sales data using GGPLOT2
 
 # Project Overview:
-* Summarized a large sales data from the state of Iowa to visually depict liquor sales from many angles.
+* Summarized a large liquor sales data from the state of Iowa to visually depict liquor sales from multiple angles.
 * Specifically, GGPLOT2 was used to produce visualizations for:
     * A calander heatmap for sales data from the year 2015.
     * A box-and-whisker plot for the pricing of liquor categories.
     * Scatter plot of price vs volume across liquor categories.
     * Time series plot of monthly liquor sales by category.
     * Time series plot of weekly liquor sales by category.
-    * Ranking Ranking of liquor categories by total sales dollars, total sales volume and number of by bottles sold.
+    * Ranking of liquor categories by total sales dollars, total sales volume and number of by bottles sold.
 
 # Data Source:
 https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy
@@ -19,7 +19,7 @@ https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy
 * Packages: ggplot2, lemon, gridExtra, ggrepel, scales
 
 # Data Management:
-* The sales and items files were merged together on "item.id"
+* The sales and items data files were merged together on "item.id"
 * The date variable was converted to date object.
 * Factor variables were created for the day of the week, month of the year and quarter of the year.
 * A random sample of the bottom 95% of the data is taken for astetic display of the scatter plot.
